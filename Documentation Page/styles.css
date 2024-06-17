@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+#navbar {
+    background-color: white;
+    height: 20rem;
+}
+
+#navbar header {
+    padding: 2rem;
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 4px solid black;
+}
+
+.scroll {
+    overflow-y: scroll;
+}
+#navbar a {
+    color: rgb(72, 72, 76);
+    font-size: 22px;
+    background-color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+#introduction {
+    border-top: 4px solid black;
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+
+#what_you_should_already_know {
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+#hypertext_markup_language {
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+#hello_world {
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+#html_tags {
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+#html_forms {
+    padding: 1.8rem 2rem;
+    background-color: white;
+}
+
+.p-1, p {
+    margin: 2rem;
+    color: rgb(72, 72, 76);
+}
+
+.code-container {
+    background-color: rgb(205, 205, 214);
+    padding: 1rem 2rem;
+    margin: 1rem 4rem;
+}
+
+li {
+    margin: 2rem 5rem;
+}
+
+@media (min-width:1100px) {
+.flex-row {
+    position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .scroll {
+        overflow: unset;
+    }
+
+    #navbar {
+        position: fixed;
+    }
+    #main-doc {
+        position: absolute;
+        top: 0;
+        left: 25rem;
+        border-left: 3px double rgb(72, 72, 76);
+    }
+}
+
+
