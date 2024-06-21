@@ -8,6 +8,9 @@ body {
     line-height: 1.5rem;
 }
 
+.all-content {
+    min-height: 100vh;
+}
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -47,6 +50,7 @@ body {
     border-top: 4px solid black;
     padding: 1.8rem 2rem;
     background-color: white;
+    /* height: 100vh; */
 }
 
 
@@ -63,6 +67,8 @@ body {
 #hello_world {
     padding: 1.8rem 2rem;
     background-color: white;
+    /* height: 100vh; */
+    /* display: none; */
 }
 
 #html_tags {
@@ -85,7 +91,9 @@ body {
     padding: 1rem 2rem;
     margin: 1rem 4rem;
 }
-
+h3 {
+    margin: 2rem 4rem;
+}
 li {
     margin: 2rem 5rem;
 }
