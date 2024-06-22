@@ -81,7 +81,7 @@ body {
     background-color: white;
 }
 
-.p-1, p {
+.p-1, .p{
     margin: 2rem;
     color: rgb(72, 72, 76);
 }
@@ -90,6 +90,9 @@ body {
     background-color: rgb(205, 205, 214);
     padding: 1rem 2rem;
     margin: 1rem 4rem;
+}
+code p {
+    margin: 1rem;
 }
 h3 {
     margin: 2rem 4rem;
@@ -120,4 +123,12 @@ li {
     }
 }
 
+@media (max-width:562px) {
+    .heading {
+        line-height: 2.5rem;
+    }
 
+    .code-container {
+        overflow: scroll;
+    }
+}
